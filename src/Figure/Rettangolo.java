@@ -2,7 +2,7 @@ package Figure;
 
 public class Rettangolo extends Figura {
 
-	double base, altezza;
+	private double base, altezza;
 
 	public Rettangolo(String nome, double base, double altezza) {
 		super(nome);
