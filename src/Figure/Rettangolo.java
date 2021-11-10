@@ -4,8 +4,8 @@ public class Rettangolo extends Figura {
 
 	double base, altezza;
 
-	public Rettangolo(double base, double altezza) {
-		super("Rettangolo");
+	public Rettangolo(String nome, double base, double altezza) {
+		super(nome);
 		this.base = base;
 		this.altezza = altezza;
 	}
