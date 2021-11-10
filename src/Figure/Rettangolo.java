@@ -10,7 +10,19 @@ public class Rettangolo extends Figura {
 		this.altezza = altezza;
 	}
 
+	public double getBase() {
+		return base;
+	}
 
+	public double getAltezza() {
+		return altezza;
+	}
 
+	public double getPerimetro() {
+		return 2*base + 2*altezza;
+	}
 
+	public double getArea() {
+		return base*altezza;
+	}
 }
