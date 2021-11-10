@@ -34,7 +34,7 @@ public class Triangolo extends Figura {
 	}
 
 	public double getArea() {
-		return base*altezza;
+		return base * altezza / 2;
 	}
 }
 
