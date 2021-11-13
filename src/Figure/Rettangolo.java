@@ -1,5 +1,7 @@
 package Figure;
 
+import myExceptions.*;
+
 public class Rettangolo extends Figura {
 
 	private double base, altezza;

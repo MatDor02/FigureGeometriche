@@ -1,5 +1,7 @@
 package Figure;
 
+import myExceptions.*;
+
 public class Triangolo extends Figura {
 
 
